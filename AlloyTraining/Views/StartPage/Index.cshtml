@@ -4,7 +4,7 @@
 @model AlloyTraining.Models.ViewModels.DefaultPageViewModel<AlloyTraining.Models.Pages.StartPage>
 
 <h1 @Html.EditAttributes(x => x.CurrentPage.Heading)>
-    @(Model.CurrentPage.Heading ?? Model.CurrentPage.PageTypeName)
+    @(Model.CurrentPage.Heading ?? Model.CurrentPage.Name)
 </h1>
 <div>
     @Html.PropertyFor(m => m.CurrentPage.MainBody)

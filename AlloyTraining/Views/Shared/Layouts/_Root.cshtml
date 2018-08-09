@@ -3,13 +3,13 @@
 @using AlloyTraining.Models.Pages
 @using AlloyTraining.Models.ViewModels
 
-@model DefaultPageViewModel<AlloyTraining.Models.Pages.StartPage>
+@model IPageViewModel<SitePageData>
 
 <!DOCTYPE html>
 
 <html>
 <head>
-    <title>@Model.CurrentPage.PageTypeName</title>
+    <title>@Model.CurrentPage.Name</title>
     <link rel="stylesheet" href="@Url.Content("~/Static/css/bootstrap.css")" />
     <link rel="stylesheet" href="@Url.Content("~/Static/css/bootstrap-responsive.css")" />
     <link rel="stylesheet" href="@Url.Content("~/Static/css/media.css")" />

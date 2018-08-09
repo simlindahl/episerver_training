@@ -10,7 +10,7 @@ using EPiServer.Web.Mvc;
 
 namespace AlloyTraining.Controllers
 {
-    public abstract class PageControllerBase <T> : PageController<SitePageData>
+    public abstract class PageControllerBase <T> : PageController<T> where T : SitePageData
     {
         public ActionResult Logout()
         {
