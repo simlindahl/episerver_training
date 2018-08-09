@@ -9,6 +9,7 @@ using EPiServer.Web.Mvc;
 
 namespace AlloyTraining.Controllers
 {
+    [TemplateDescriptor(Inherited = true)]
     public class PagePartialController : PartialContentController<SitePageData>
     {
         public override ActionResult Index(SitePageData currentContent)
@@ -16,7 +17,7 @@ namespace AlloyTraining.Controllers
             /* Implementation of action. You can create your own view model class that you pass to the view or
              * you can pass the page type for simpler templates */
 
-            return PartialView("/Views/Shared/PagePartials/PagePartial.cshtml", currentContent);
+            return PartialView("~/Views/Shared/PagePartial/PagePartial.cshtml", currentContent);
         }
     }
 }

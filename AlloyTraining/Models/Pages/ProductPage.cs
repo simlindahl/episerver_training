@@ -13,12 +13,12 @@ namespace AlloyTraining.Models.Pages
     {
         [Display(GroupName = SystemTabNames.Content, Order = 305)]
         [UIHint(UIHint.Textarea)]
-        public string UniqueSellingPoints { get; set; }
+        public virtual string UniqueSellingPoints { get; set; }
 
         [Display(GroupName = SystemTabNames.Content, Order = 320)]
-        public ContentArea MainContentArea { get; set; }
+        public virtual ContentArea MainContentArea { get; set; }
 
         [Display(GroupName = SystemTabNames.Content, Order = 330)]
-        public ContentArea RelatedContentArea { get; set; }
+        public virtual ContentArea RelatedContentArea { get; set; }
     }
 }
