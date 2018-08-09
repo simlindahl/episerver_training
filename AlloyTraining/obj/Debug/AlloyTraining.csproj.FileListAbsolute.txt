@@ -75,7 +75,6 @@ C:\EPiServer\AlloyTraining\AlloyTraining\bin\System.Web.Razor.xml
 C:\EPiServer\AlloyTraining\AlloyTraining\bin\System.Web.WebPages.xml
 C:\EPiServer\AlloyTraining\AlloyTraining\bin\System.Web.WebPages.Deployment.xml
 C:\EPiServer\AlloyTraining\AlloyTraining\bin\System.Web.WebPages.Razor.xml
-C:\EPiServer\AlloyTraining\AlloyTraining\obj\Debug\AlloyTraining.csprojAssemblyReference.cache
 C:\EPiServer\AlloyTraining\AlloyTraining\obj\Debug\AlloyTraining.csproj.CoreCompileInputs.cache
 C:\EPiServer\AlloyTraining\AlloyTraining\obj\Debug\AlloyTraining.csproj.CopyComplete
 C:\EPiServer\AlloyTraining\AlloyTraining\obj\Debug\AlloyTraining.dll
