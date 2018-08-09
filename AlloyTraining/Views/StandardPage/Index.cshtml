@@ -1,0 +1,15 @@
+﻿@using AlloyTraining.Models.Pages
+
+@model AlloyTraining.Models.ViewModels.DefaultPageViewModel<StandardPage>
+
+@{
+    Layout = "~/Views/Shared/Layouts/_LeftNavigation.cshtml";
+}
+
+<h1>@Html.PropertyFor(x => x.CurrentPage.PageTypeName)</h1>
+<div class="row">
+    <div class="span8 clearfix">
+        @Html.PropertyFor(x => x.CurrentPage.MainBody)
+    </div>
+</div>
+
